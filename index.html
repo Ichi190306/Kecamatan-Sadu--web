@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kecamatan Sadu</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">MyLogo</div>
+        <nav class="menu">
+            <a href="index.html">Beranda</a>
+            <a href="sejarah.html">Sejarah</a>
+            <a href="struktur.html">Struktur</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </header>
+
+    <section class="beranda" id="beranda">
+        <div class="hero">
+            <img src="img/kawai-girl1.png" alt="Nature Image">
+            <div class="text-content">
+                <h1>Welcome to Our Random Website</h1>
+                <p>Discover the beauty of nature with our services.</p>
+                <a href="#"><button>Explore Now</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="berita" id="berita">
+        <h2>Berita Berita & Siaran Pers</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus magni et similique quibusdam molestiae
+            accusamus, fuga rerum quis at omnis. Molestias deleniti nisi facilis doloribus quibusdam repellendus, autem
+            aspernatur.</p>
+        <div class="cards">
+            <div class="card">
+                <img src="img/kawai-girl1.png" alt="Card 1">
+                <h3>Card 1</h3>
+                <p class="date">Published on: Jan 16, 2025</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor velit, id optio accusantium
+                    maiores impedit quisquam consequuntur expedita laboriosam ex vitae hic cumque necessitatibus placeat
+                    perspiciatis minus voluptatibus nisi.</p>
+                <br>
+                <div class="card-actions">
+                    <a href=""><button class="buttoncard">Click Here</button></a>
+                    <button class="like-button" onclick="toggleLike(this)">Like</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kawai-girl1.png" alt="Card 2">
+                <h3>Card 2</h3>
+                <p class="date">Published on: Jan 15, 2025</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor velit, id optio accusantium
+                    maiores impedit quisquam consequuntur expedita laboriosam ex vitae hic cumque necessitatibus placeat
+                    perspiciatis minus voluptatibus nisi.</p>
+                <br>
+                <div class="card-actions">
+                    <a href=""><button class="buttoncard">Click Here</button></a>
+                    <button class="like-button" onclick="toggleLike(this)">Like</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kawai-girl1.png" alt="Card 3">
+                <h3>Card 3</h3>
+                <p class="date">Published on: Jan 14, 2025</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor velit, id optio accusantium
+                    maiores impedit quisquam consequuntur expedita laboriosam ex vitae hic cumque necessitatibus placeat
+                    perspiciatis minus voluptatibus nisi.</p>
+                <br>
+                <div class="card-actions">
+                    <a href=""><button class="buttoncard">Click Here</button></a>
+                    <button class="like-button" onclick="toggleLike(this)">Like</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kawai-girl1.png" alt="Card 4">
+                <h3>Card 4</h3>
+                <p class="date">Published on: Jan 13, 2025</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor velit, id optio accusantium
+                    maiores impedit quisquam consequuntur expedita laboriosam ex vitae hic cumque necessitatibus placeat
+                    perspiciatis minus voluptatibus nisi.</p>
+                <br>
+                <div class="card-actions">
+                    <a href=""><button class="buttoncard">Click Here</button></a>
+                    <button class="like-button" onclick="toggleLike(this)">Like</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kawai-girl1.png" alt="Card 1">
+                <h3>Card 1</h3>
+                <p class="date">Published on: Jan 16, 2025</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor velit, id optio accusantium
+                    maiores impedit quisquam consequuntur expedita laboriosam ex vitae hic cumque necessitatibus placeat
+                    perspiciatis minus voluptatibus nisi.</p>
+                <br>
+                <div class="card-actions">
+                    <a href=""><button class="buttoncard">Click Here</button></a>
+                    <button class="like-button" onclick="toggleLike(this)">Like</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kawai-girl1.png" alt="Card 2">
+                <h3>Card 2</h3>
+                <p class="date">Published on: Jan 15, 2025</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor velit, id optio accusantium
+                    maiores impedit quisquam consequuntur expedita laboriosam ex vitae hic cumque necessitatibus placeat
+                    perspiciatis minus voluptatibus nisi.</p>
+                <br>
+                <div class="card-actions">
+                    <a href=""><button class="buttoncard">Click Here</button></a>
+                    <button class="like-button" onclick="toggleLike(this)">Like</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kawai-girl1.png" alt="Card 3">
+                <h3>Card 3</h3>
+                <p class="date">Published on: Jan 14, 2025</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor velit, id optio accusantium
+                    maiores impedit quisquam consequuntur expedita laboriosam ex vitae hic cumque necessitatibus placeat
+                    perspiciatis minus voluptatibus nisi.</p>
+                <br>
+                <div class="card-actions">
+                    <a href=""><button class="buttoncard">Click Here</button></a>
+                    <button class="like-button" onclick="toggleLike(this)">Like</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kawai-girl1.png" alt="Card 4">
+                <h3>Card 4</h3>
+                <p class="date">Published on: Jan 13, 2025</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor velit, id optio accusantium
+                    maiores impedit quisquam consequuntur expedita laboriosam ex vitae hic cumque necessitatibus placeat
+                    perspiciatis minus voluptatibus nisi.</p>
+                <br>
+                <div class="card-actions">
+                    <a href=""><button class="buttoncard">Click Here</button></a>
+                    <button class="like-button" onclick="toggleLike(this)">Like</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="infografis" id="infografis">
+        <h2>Infografis</h2>
+        <div class="slider">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="img/kawai-girl1.png" alt="Infografis 1">
+                    <h3>Infografis 1</h3>
+                    <p>Deskripsi singkat mengenai infografis pertama. Informasi menarik dan penting disajikan secara
+                        visual.</p>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="img/kawai-girl1.png" alt="Infografis 2">
+                    <h3>Infografis 2</h3>
+                    <p>Deskripsi singkat mengenai infografis kedua. Informasi menarik dan penting disajikan secara
+                        visual.</p>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="img/kawai-girl1.png" alt="Infografis 3">
+                    <h3>Infografis 3</h3>
+                    <p>Deskripsi singkat mengenai infografis ketiga. Informasi menarik dan penting disajikan secara
+                        visual.</p>
+                </div>
+            </div>
+            <!-- Navigation Buttons -->
+            <button class="prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Kecamatan Sadu</h3>
+                    <p>.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                        <li><a href="struktur.html">Struktur</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MyWebsite. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
